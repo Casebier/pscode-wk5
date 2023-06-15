@@ -1,0 +1,74 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+//
+//Brian Casebier pseudocode for Exercise 1
+//
+//Initialize variables
+a = 10
+b = 15
+//Calculate sum
+c = a + b
+print "The sum of the two values is " & c & " ."
+//
+//end pseudocode
+//
+// Exercise 2: Check if a Number is Even or Odd
+//
+//Brian Casebier pseudocode for Exercise 2
+//Initialize variables
+intNumber = 17
+intDivisor = 2
+strResultant
+//Determine if odd or even
+	If mod(Number/Divisor)>0 then
+		strResultant = "ODD"
+	Else
+		strResultant = "EVEN"
+	end if
+//
+print "The number is " & strResultant & " ."
+//
+//end pseudocode
+//
+// Exercise 3: 
+//Write pseudo code that will perform the following.    
+//
+// a) Read in 5 separate numbers.   
+// b) Calculate the average of the five numbers.
+// c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+// d) Write out the results found from steps b and c with a message describing what they are
+//
+//Brian Casebier pseudocode for Exercise 3
+//Initialize variables, Read data
+	intAry = {2, 3, 5, 7, 11}
+	intArySum = 0
+	intAryMin = 0
+	intAryMax = 0
+	intLoopCount = 0
+//Sum array values and calculate average, min, max
+	For i = LBound(intAry) to UBound(intAry)
+		intArySum = intArySum + intAry(i)
+		intLoopCount = intLoopCount + 1	
+			If i = 1 then
+				intAryMin = intAry(i)
+				intAryMax = intAry(i)
+			else
+				if intAry(i) < intAryMin then
+					intAryMin = intAry(i)
+				end if
+//
+				if intAry(i) > intAryMax then
+					intAryMax = intAry(i)
+				end if
+			end if		
+	next i
+//
+
+//Return calculated values
+Print "The average is " & intArySum / intLoopCount & " ."
+Print "The smallest number in is " & intAryMin & " ."
+Print "The largest number is " & intAryMax & " ."
+//
+//end pseudocode
+//
+
+-- END --
