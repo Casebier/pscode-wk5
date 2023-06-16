@@ -1,3 +1,5 @@
+//File version controlled; reference: https://github.com/Casebier/pscode-wk5.git
+//
 // Exercise 1: Calculate the Sum of Two Numbers
 //
 //Brian Casebier pseudocode for Exercise 1
